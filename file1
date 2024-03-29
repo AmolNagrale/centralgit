@@ -1,6 +1,13 @@
 this is my new file
+def decor(main):
+	def inner(name):
+		if name == "Amol":
+			print(f'Good morning {name}
+		else:
+			return wish(name)
+	return inner
 def wish(name):
 	print(f'my name is {name}')
 
-wish(name)
+wish("Amol")
 
