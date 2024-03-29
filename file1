@@ -1,1 +1,6 @@
 this is my new file
+def wish(name):
+	print(f'my name is {name}')
+
+wish(name)
+
